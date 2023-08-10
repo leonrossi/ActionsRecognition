@@ -10,5 +10,5 @@ Summary: The collection and analysis of large databases have become a task incre
 # Instalation
 To do.
 
-# How to ruin
+# How to run
 To do.
