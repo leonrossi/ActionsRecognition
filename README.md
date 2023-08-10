@@ -1,6 +1,7 @@
 # Action Recognition in Sport through Wearable Sensors: from Data Collection to Classification Models Induction
 
 Author: Leonardo Rossi Luiz - ICMC/USP
+
 Advisor: Diego Furtado Silva - ICMC/USP
 
 Project financed by Research Support Foundation of the State of São Paulo (FAPESP).
