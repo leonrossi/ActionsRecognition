@@ -56,7 +56,7 @@ if __name__ == '__main__':
         mfs=AK8963_BIT_16, 
         mode=AK8963_MODE_C100HZ)
 
-    mpu.calibrate() # Calibrate the sensor metrics
+    mpu.calibrateMPU6500() # Calibrate the sensor metrics
     mpu.configure() # Apply the settings to the registers
 
     f = generate_file_name()
