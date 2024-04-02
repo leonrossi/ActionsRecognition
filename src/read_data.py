@@ -5,7 +5,7 @@ from mpu9250_jmdev.registers import *
 from mpu9250_jmdev.mpu_9250 import MPU9250
 
 def generate_file_name():
-    dir_path = '/'
+    dir_path = '/home/pi/Documents/'
     count_files = 0
     
     for path in os.listdir(dir_path):
@@ -62,4 +62,4 @@ if __name__ == '__main__':
     f = generate_file_name()
     start = time.monotonic()
     while True:
-        write_results('', f, start)
+        write_results('/home/pi/Documents/', f, start)
